@@ -36,7 +36,6 @@
     color: #8f8f8f;
 }
 
-
 @media (max-width: 800px) {
     .footer-container {
         grid-template-columns: 1fr;
