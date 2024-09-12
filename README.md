@@ -1,23 +1,29 @@
-**Portifólio**
+# Bikcraft
 
-Bem-vindo ao repositório do Portifólio!
-Este projeto é uma demonstração dos meus conhecimentos em JavaScript e desenvolvimento web.
+Este é o repositório do meu Portifolio.
 
------------------------------------------------------------------------------------------------
+## Funcionalidades
 
-**Funcionalidades:**
+- Responsividade
+- Animações.
+- Paginas funcionais.
 
+## Como Usar
 
------------------------------------------------------------------------------------------------
+1. Abra o arquivo `index.html` em seu navegador da web.
 
-**Tecnologias Utilizadas:**
+## Pré-requisitos
 
-HTML: Estruturação da página.
+Não há pré-requisitos específicos para utilizar.
 
-CSS: Estilização e layout.
+## Contribuindo
 
-JavaScript: Lógica e interatividade.
+Este é um projeto de código aberto e contribuições são bem-vindas! Sinta-se à vontade para propor melhorias, relatar problemas ou enviar solicitações de pull.
 
-https://rhyanvictoor.github.io/portifolio/
+## Tecnologias Utilizadas
 
-![foto](https://github.com/RhyanVictoor/portifolio/blob/main/img/Captura%20de%20tela%202024-08-05%20190521.png?raw=true)
+- HTML: Estruturação da página.
+- CSS: Estilização e layout.
+- JavaScript: Lógica e interatividade.
+  
+![foto](https://github.com/RhyanVictoor/portifolio/blob/main/img/image.png?raw=true)
