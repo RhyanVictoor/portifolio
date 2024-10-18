@@ -3,13 +3,13 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Desenvolvedor Front End & UX/UI Designer, Localizado em Porto Velho"/>
+        <meta name="description" content="Desenvolvedor Front End & UX/UI Designer, Localizado em Porto Velho" />
         <link rel="stylesheet" href="./src/css/style.min.css" />
         <link rel="icon" href="./src/img/LOGO 1.svg" type="image/svg+xml" />
         <title>RVTECH | Portfólio</title>
     </head>
     <body>
-        <header class="header">
+        <header class="header fadeInDown" data-anime="300">
             <img src="./src/img/LOGO 3.svg" alt="marca" class="marca" />
             <nav>
                 <ul class="header-menu">
@@ -21,12 +21,12 @@
         </header>
         <main class="introducao">
             <div>
-                <h1> Olá, eu sou o<span class="bold"> Rhyan Victor, (RVTECH)</span>.</h1>
-                <p>Desenvolvedor Front End</p>
+                <h1 class="fadeInDown" data-anime="500">Olá, eu sou o<span class="bold"> Rhyan Victor, (RVTECH)</span >.</h1>
+                <p class="fadeInDown" data-anime="600">Estudante Front End. </p>
             </div>
         </main>
 
-        <section class="experiencia" id="experiencia" aria-label="Experiência">
+        <section class="experiencia fadeInDown" id="experiencia" aria-label="Experiência" data-anime="700" >
             <h2 class="subtitulo">Experiência</h2>
             <div>
                 <p class="experiencia-texto">
@@ -163,11 +163,11 @@
                         Desenvolvido com HTML, CSS e JavaScript, o projeto
                         oferece uma interface simples e intuitiva, com
                         funcionalidades básicas de um to-do list. Ele demonstra
-                        habilidades em manipulação do DOM e armazenamento local, 
-                        garantindo que as tarefas sejam mantidas
-                        mesmo ao recarregar a página. É um exemplo prático de
-                        aplicação front-end voltada para a produtividade e
-                        organização pessoal.
+                        habilidades em manipulação do DOM e armazenamento local,
+                        garantindo que as tarefas sejam mantidas mesmo ao
+                        recarregar a página. É um exemplo prático de aplicação
+                        front-end voltada para a produtividade e organização
+                        pessoal.
                     </p>
                     <ul class="empresa-habilidades">
                         <li>HTML</li>
@@ -177,6 +177,42 @@
                         <li>UI Design</li>
                         <li>Produtividade</li>
                         <li>Organização</li>
+                    </ul>
+                </div>
+
+                <div class="empresa">
+                    <span class="empresa-ano">2023</span>
+                    <h3 class="empresa-titulo">Ceeja Dr. Claudio Fialho</h3>
+                    <span class="empresa-titulo">Estagiário</span>
+                    <p class="empresa-texto">
+                        Durante o período de estágio, realizei as seguintes tarefas: suporte aos estudantes na utilização dos computadores (instruções básicas e explicações sobre cada item), assistência técnica (limpeza, formatação, instalação de sistemas operacionais, drivers e otimização), manutenção e configuração de impressoras, planejamento e instalação de redes de computadores.
+                    </p>
+                    <ul class="empresa-habilidades">
+                        <li>Assistência Técnica</li>
+                        <li>Limpeza</li>
+                        <li>Formatação</li>
+                        <li>Otimização</li>
+                        <li>Redes de Computadores</li>
+                        <li>suporte Técnico</li>
+                        <li>Instalação de Software</li>
+                    </ul>
+                </div>
+
+                <div class="empresa">
+                    <span class="empresa-ano">2023</span>
+                    <h3 class="empresa-titulo">Eeemti Simon Bolivar</h3>
+                    <span class="empresa-titulo">Estagiário</span>
+                    <p class="empresa-texto">
+                        Durante o período de estágio, realizei as seguintes tarefas: suporte aos estudantes na utilização dos computadores (instruções básicas e explicações sobre cada item), assistência técnica (limpeza, formatação, instalação de sistemas operacionais, drivers e otimização), manutenção e configuração de impressoras, design.
+                    </p>
+                    <ul class="empresa-habilidades">
+                        <li>Assistência Técnica</li>
+                        <li>Limpeza</li>
+                        <li>Formatação</li>
+                        <li>Otimização</li>
+                        <li>Design</li>
+                        <li>suporte Técnico</li>
+                        <li>Instalação de Software</li>
                     </ul>
                 </div>
 
@@ -211,11 +247,11 @@
                         <div class="cursos">
                             <h3>Cursos Intensivos</h3>
                             <ul>
-                                <li>UX Design & UI Design <span>17h</span></li>
-                                <li>Front End para Iniciantes <span>23h</span></li>
-                                <li>JavaScript completo <span>37h</span></li>
-                                <li>Introdução a Redes de Computadores <span>15h</span></li>
-                                <li>Fundamentos da Segurança da Informação <span>25h</span></li>
+                                <li>UX Design & UI Design<span>17h</span></li>
+                                <li>Front End para Iniciantes<span>23h</span></li>
+                                <li>JavaScript completo<span>37h</span></li>
+                                <li>Introdução a Redes de Computadores<span>15h</span></li>
+                                <li>Fundamentos da Segurança da Informação<span>25h</span></li>
                                 <li>Git e Github<span>2h</span></li>
                             </ul>
                         </div>
@@ -250,6 +286,7 @@
             </div>
         </footer>
 
+        <script src="./src/js/simple-anime.js"></script>
         <script src="./src/js/app.js"></script>
     </body>
 </html>

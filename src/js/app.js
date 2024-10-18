@@ -54,3 +54,8 @@ function smoothScrollTo(endX, endY, duration) {
         window.scroll(newX, newY);
     }, 1000 / 60);
 }
+
+//animação
+if (window.SimpleAnime) {
+    new SimpleAnime();
+}
