@@ -1,4 +1,4 @@
-# Bikcraft
+# Portifólio 
 
 Este é o repositório do meu Portifolio.
 
@@ -26,4 +26,4 @@ Este é um projeto de código aberto e contribuições são bem-vindas! Sinta-se
 - CSS: Estilização e layout.
 - JavaScript: Lógica e interatividade.
   
-![foto](https://github.com/RhyanVictoor/portifolio/blob/main/img/image.png?raw=true)
+![foto](https://github.com/RhyanVictoor/portifolio/blob/main/image.png?raw=true)
