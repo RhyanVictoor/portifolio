@@ -4,18 +4,7 @@ body {
     margin: 0;
     color: #141414;
 }
-html {
-    scroll-behavior: smooth;
-}
-::-webkit-scrollbar {
-    width: 12px;
-}
-::-webkit-scrollbar-track {
-    background-color: #fff;
-}
-::-webkit-scrollbar-thumb {
-    background: #101010;
-}
+
 h1,
 h2,
 h3,
@@ -170,7 +159,7 @@ img {
     display: block;
     width: 4px;
     height: 20px;
-    background: linear-gradient(#b6f829, #67dd0a);
+    background: linear-gradient(#525252, #a3a3a3);
     position: absolute;
     top: 20px;
     left: -4px;
@@ -308,7 +297,7 @@ img {
     display: block;
     width: 4px;
     height: 20px;
-    background: linear-gradient(#b6f829, #67dd0a);
+    background: linear-gradient(#525252, #a3a3a3);
     position: absolute;
     left: -24px;
 }
